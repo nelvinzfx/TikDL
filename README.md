@@ -23,5 +23,20 @@ To install TikDL, simply clone the repository:
 
 ```git clone https://github.com/nelvinzfx/TikDL.git```
 
+## Usage
 
+1. Open `index.html` in your web browser.
+2. Enter the TikTok video URL.
+3. Click the "📋" button to start the download process.
 
+## Contributing
+
+We welcome contributions to improve TikDL. Feel free to create issues, submit pull requests, or suggest new features.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+---
+
+Happy downloading! 🎉
