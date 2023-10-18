@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer {
+            margin-top: auto;
+            width: 100%;
+        }
+
+        .custom-input-group {
+            max-width: 300px;
+            margin: 0 auto;
+        }
+
+        .custom-input {
+            height: 50px;
+        }
+
+        .custom-btn-clipboard {
+            height: 50px;
+        }
+
+        .emoji-paragraph span {
+            font-size: 36px;
+            margin-right: 10px;
+        }
+
+    </style>
+    <title>TikDL - TikTok Downloader</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <span style="font-size: 24px;">📱</span> TikDL
+        </a>
+    </nav>
+
+    <div class="container mt-4">
+        <!-- Title -->
+        <h1 class="text-center">
+            <span style="font-size: 48px;">📽️</span> TikDL - TikTok Downloader
+        </h1>
+
+        <!-- Description -->
+        <p class="text-center lead">
+            TikDL is a simple and easy-to-use TikTok video downloader that allows you to save TikTok videos to your device. Just enter the TikTok username or video URL, and start downloading!
+        </p>
+
+        <!-- Search Field -->
+        <div class="input-group mb-3 mt-4 custom-input-group">
+            <input type="text" class="form-control custom-input" placeholder="Input TikTok video URL here." aria-label="Search" aria-describedby="search-button">
+            <button class="btn btn-primary custom-btn-clipboard" type="button">
+                <span style="font-size: 15px;">📋</span>
+            </button>
+        </div>
+
+        <!-- Download Button -->
+        <div class="text-center mt-4" id="text-download">
+            <a href="#" class="btn btn-success">
+                <span style="font-size: 24px;">⬇️</span> Download Video
+            </a>
+        </div>
+    </div>
+
+    <!-- Paragraf dengan emoji berukuran besar -->
+    <div class="container mt-4 text-center">
+        <p class="emoji-paragraph"><span>🚀</span> Fast and Easy to Use</p>
+        <p class="emoji-paragraph"><span>📱</span> Mobile-Friendly</p>
+        <p class="emoji-paragraph"><span>🔒</span> Secure and Private</p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white text-center py-3">
+        &copy; 2023 TikDL. All rights reserved.
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+
+</html>
