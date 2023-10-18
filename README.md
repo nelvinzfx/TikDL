@@ -1,6 +1,6 @@
 # 📱 TikDL - TikTok Downloader
 
-TikDL is a simple and easy-to-use TikTok video downloader that allows you to save TikTok videos to your device. This project is built using only Bootstrap and JavaScript. Just enter the TikTok username or video URL, and start downloading!
+TikDL is a simple and easy-to-use TikTok video downloader that allows you to save TikTok videos to your device. This project is built using only Bootstrap and JavaScript. Just enter the TikTok video URL, and start downloading!
 
 ## Features
 
